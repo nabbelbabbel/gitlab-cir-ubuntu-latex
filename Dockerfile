@@ -6,6 +6,7 @@ RUN apt-get update -q
 RUN apt-get install -qy texlive-full 
 RUN apt-get install -qy python-pygments 
 RUN apt-get install -qy gnuplot
+RUN apt-get install -qy biber
 
 RUN chown -R ${GITLAB_CI_MULTI_RUNNER_USER}:${GITLAB_CI_MULTI_RUNNER_USER} ${GITLAB_CI_MULTI_RUNNER_HOME_DIR}
 
