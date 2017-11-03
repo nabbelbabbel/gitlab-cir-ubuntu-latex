@@ -8,7 +8,7 @@ Example of [Docker Compose](https://docs.docker.com/compose/) file (`docker-comp
 
 ```
 CPFRunner:
-  image: nabbelbabbel/docker-gitlab-ci-multi-runner-latex:latest
+  image: nabbelbabbel/gitlab-cir-ubuntu-latex:latest
   environment:
     - CI_SERVER_URL=<enter gitlab-ci url here>
     - RUNNER_TOKEN=<enter runner token here>
