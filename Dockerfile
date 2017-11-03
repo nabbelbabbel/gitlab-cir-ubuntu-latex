@@ -48,7 +48,7 @@ RUN apt-get install -qy python-pygments
 RUN apt-get install -qy gnuplot
 RUN apt-get install -qy biber
 
-RUN chown -R ${GITLAB_CI_MULTI_RUNNER_USER}:${GITLAB_CI_MULTI_RUNNER_USER} ${GITLAB_CI_MULTI_RUNNER_HOME_DIR}
+RUN chown -R ${GITLAB_RUNNER_USER}:${GITLAB_RUNNER_USER} ${GITLAB_RUNNER_HOME_DIR}
 
 RUN locale-gen en_US.UTF-8
 
