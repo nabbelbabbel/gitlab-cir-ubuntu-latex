@@ -1,6 +1,6 @@
-# Docker image with gitlab-ci-multi-runner to run builds for LaTeX documents.
+# Docker image with GitLab CI Runner to run builds for LaTeX documents.
 
-Docker image with gitlab-ci-multi-runner, which can run builds for LaTeX
+Docker image with GitLab CI Runner, which can run builds for LaTeX
 
 ## How to use
 
